@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="DemoStranglerFigMigration/DemoStranglerFigMigration.csproj" />
+  <Project Path="DemoStranglerFigMigration/DemoStranglerFigMigration.csproj" Id="8fce7303-d10e-41e9-82c9-adcbfb45016e" />
+  <Project Path="ModernWebApp/ModernWebApp.csproj" />
 </Solution>

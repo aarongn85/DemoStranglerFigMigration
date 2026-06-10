@@ -1,0 +1,44 @@
+﻿@model ModernWebApp.Models.ContactResultModel
+
+<h2>Contact Form (Migrated)</h2>
+
+<p>
+    This form has been migrated to ASP.NET Core.
+</p>
+
+<form method="post">
+    <div>
+        <label>Name</label><br />
+        <input type="text" name="ContactNameText" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Email</label><br />
+        <input type="email" name="ContactEmailText" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Message</label><br />
+        <textarea name="ContactMessageText" rows="4"></textarea>
+    </div>
+
+    <br />
+
+    <button type="submit">Submit Contact</button>
+
+    @if (Model != null)
+    {
+        <br />
+
+        <div>
+            <strong>@Model.ResultMessage</strong><br />
+            Name: @Model.Name<br />
+            Email: @Model.Email<br />
+            Message: @Model.Message
+        </div>
+    }
+</form>
