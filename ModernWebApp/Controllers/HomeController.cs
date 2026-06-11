@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using ModernWebApp.Models;
 using System.Diagnostics;
+using ModernWebApp.Models;
 
 namespace ModernWebApp.Controllers
 {
